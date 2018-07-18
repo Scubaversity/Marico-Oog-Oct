@@ -32,12 +32,13 @@
     "siteFonts": [],
     "favicon": "@PROJECT_PATH@/assets/images/3d-logo-transparent-128x60.png",
     "noImageResize": "",
-    "google-analytics": "",
+    "google-analytics": "<script>\r\n    (function(h,o,t,j,a,r){\r\n        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};\r\n        h._hjSettings={hjid:950659,hjsv:6};\r\n        a=o.getElementsByTagName('head')[0];\r\n        r=o.createElement('script');r.async=1;\r\n        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;\r\n        a.appendChild(r);\r\n    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');\r\n</script>",
     "versionFirst": "4.7.6",
     "uniqCompNum": 15,
     "versionPublish": "4.7.6",
     "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "siteUrl": "undefined"
   },
   "pages": {
     "index.html": {
@@ -785,11 +786,11 @@
           "_name": "content1",
           "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>Marico Oog Entrance Fee: (Paid Direct)&nbsp;<span style=\"font-size: 1rem;\">Camping per day R 80. &nbsp;</span><span style=\"font-size: 1rem;\">Tent per day R70.</span><div>Caravan per day R80.&nbsp;<span style=\"font-size: 1rem;\">Chalet per day R 220. &nbsp;</span><span style=\"font-size: 1rem;\">R 20 per car once off</span></div></div>\n        </div>\n    </div>\n</section>",
           "_cid": "qXq2DZkDO9",
+          "_anchor": "content1-e",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-e"
+          "_params": {}
         },
         {
           "_styles": {
